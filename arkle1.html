@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover the details of the luxury apartment Arkle 1, featuring 2 rooms, 1 bathroom, a kitchen, and a living room. Perfect for rent or stay in Tirana. | Zbuloni detajet e apartamentit luksoz Arkle 1, me 2 dhoma, 1 tualet, një kuzhinë dhe një dhomë ndenjeje. I përshtatshëm për qira ose qëndrim në Tiranë.">
+    <meta name="keywords" content="Luxury Apartment, Arkle 1, Property Details, Rent Apartment, Tirana Apartments, Real Estate, Apartment for Rent, Apartamente me qira, Apartament Tirane, Arkle 1, Detajet e apartamentit, Shtëpi me qira, Pronë Tirane">
+    <meta name="author" content="Your Property Showroom">
+    <meta name="robots" content="index, follow">
+    <title>Arkle 1 Apartment Details - Detajet e Apartamentit Arkle 1</title>
+    <link rel="stylesheet" href="showroom.css">
+</head>
+<body>
+    <header>
+        <h1>Detajet e Apartamentit</h1>
+    </header>
+
+    <section class="property-details">
+        <h2 id="property-title">Arkle 1</h2>
+        <img class="property-image" src="Resources/PHOTO-2024-10-28-11-45-56 (2).jpg" alt="Luxury Apartment Arkle 1 | Apartamenti Luksoz Arkle 1" id="main-image-1">
+        
+        <div class="thumbnail-container">
+            <img class="thumbnail" src="Resources/PHOTO-2024-10-28-11-45-56.jpg" alt="Thumbnail of Arkle 1 Living Room | Dhoma e Ndenjes Arkle 1" onclick="changeImage(this.src, 'main-image-1')">
+            <img class="thumbnail" src="Resources/PHOTO-2024-10-28-11-45-57 (2).jpg" alt="Thumbnail of Arkle 1 Kitchen | Kuzhina e Arkle 1" onclick="changeImage(this.src, 'main-image-1')">
+            <img class="thumbnail" src="Resources/PHOTO-2024-10-28-11-45-58.jpg" alt="Thumbnail of Arkle 1 Bathroom | Tualeti i Arkle 1" onclick="changeImage(this.src, 'main-image-1')">
+            <img class="thumbnail" src="Resources/PHOTO-2024-10-28-11-45-57 (1).jpg" alt="Thumbnail of Arkle 1 Bedroom | Dhoma e Gjumi Arkle 1" onclick="changeImage(this.src, 'main-image-1')">
+        </div>
+        
+        <p id="property-description"><strong>Pershkrimi:</strong> 2 dhoma, 1 tualet, kuzhine, dhome ndenje | <strong>Description:</strong> 2 rooms, 1 bathroom, kitchen, living room</p>
+        <p id="property-contact"><strong>Kontakt:</strong> Numri i telefonit: +355 69 577 7199 | <strong>Contact:</strong> Phone number: +355 69 577 7199</p>
+        <p><a href="https://maps.app.goo.gl/HgtHagFNYnMHRaQH8" target="_blank">Vendodhja | Location</a></p>
+        <a href="https://www.booking.com/hotel/al/luxury-apartament-tirane.en-gb.html?label=New_English_EN_AL_27034601065-3G7RPrQQlfG_8FxYh5pXiAS637942140623%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atidsa-64415224945%3Alp9069992%3Ali%3Adec%3Adm%3Aag27034601065%3Acmp400850185&sid=961e49d1c9ffc738cbf7cd0135cdd1b9&gclid=Cj0KCQiA_9u5BhCUARIsABbMSPuw0Jroea5KuJ8qIc0yj5mlCn84pJL0JK2vO2GdkVaTZKU1qO_Hin4aAnBKEALw_wcB&aid=318615&ucfs=1&arphpl=1&dest_id=-108649&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=popularity&srpvid=2b2258e94bf400f1&srepoch=1731674325&from=searchresults" 
+        target="_blank" 
+        style="text-decoration: none; color: white; background-color: #541f1a; padding: 10px 20px; border-radius: 5px; font-weight: bold; display: inline-block;">
+         Rezervo tani në Booking.com | Book Now on Booking.com
+     </a>
+        
+        <button onclick="goBack()">Kthehu Mbrapa | Go Back</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Property Showroom | Showroomi Juaj i Pronave</p>
+    </footer>
+
+    <script>
+        function changeImage(src, imageId) {
+            document.getElementById(imageId).src = src; // Change the main image to the clicked thumbnail
+        }
+
+        function goBack() {
+            window.history.back(); // Go back to the previous page
+        }
+    </script>
+</body>
+</html>

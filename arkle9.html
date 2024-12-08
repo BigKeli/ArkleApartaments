@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover the details of the luxury apartment Arkle 6, featuring 1 room, 1 bathroom, a balcony, and Netflix. Perfect for rent or stay in Tirana. | Zbuloni detajet e apartamentit luksoz Arkle 6, me 1 dhomë, 1 tualet, një ballkon dhe Netflix. I përshtatshëm për qira ose qëndrim në Tiranë.">
+    <meta name="keywords" content="Luxury Apartment, Arkle 6, Property Details, Rent Apartment, Tirana Apartments, Real Estate, Apartment for Rent, Apartamente me qira, Apartament Tirane, Arkle 6, Detajet e apartamentit, Shtëpi me qira, Pronë Tirane, Netflix">
+    <meta name="author" content="Your Property Showroom">
+    <meta name="robots" content="index, follow">
+    <title>Arkle 9 Apartment Details - Detajet e Apartamentit Arkle 6</title>
+    <link rel="stylesheet" href="showroom.css">
+</head>
+<body>
+    <header>
+        <h1>Detajet e Apartamentit</h1>
+    </header>
+
+    <section class="property-details">
+        <h2 id="property-title">Arkle 9</h2>
+        <img class="property-image" src="Resources/a5c4d53c-7ff5-4237-a684-2c52f0a6fa82.jpeg" alt="Luxury Apartment Arkle 6 | Apartamenti Luksoz Arkle 6" id="main-image-1">
+        
+        <div class="thumbnail-container">
+            <img class="thumbnail" src="Resources/a5c4d53c-7ff5-4237-a684-2c52f0a6fa82.jpeg" alt="Thumbnail of Arkle 6 Living Room | Dhoma e Ndenjes Arkle 6" onclick="changeImage(this.src, 'main-image-1')">
+            <img class="thumbnail" src="Resources/44cfa24e-101a-4868-bdf8-cec4b3c825bf.jpeg" alt="Thumbnail of Arkle 6 Kitchen | Kuzhina e Arkle 6" onclick="changeImage(this.src, 'main-image-1')">
+            <img class="thumbnail" src="Resources/d95c075d-a08f-40c6-8058-92ce69dc6d4a.jpeg" alt="Thumbnail of Arkle 6 Bathroom | Tualeti i Arkle 6" onclick="changeImage(this.src, 'main-image-1')">
+            <img class="thumbnail" src="Resources/f7c6b93b-9c05-48e6-ae2c-56c0f29276f0.jpeg" alt="Thumbnail of Arkle 6 Balcony | Ballkoni i Arkle 6" onclick="changeImage(this.src, 'main-image-1')">
+        </div>
+        
+        <p id="property-description"><strong>Pershkrimi:</strong> 1 dhomë, 1 tualet, ballkon, Netflix | <strong>Description:</strong> 1 room, 1 bathroom, balcony, Netflix</p>
+        <p id="property-contact"><strong>Kontakt:</strong> Numri i telefonit: +355 69 577 7199 | <strong>Contact:</strong> Phone number: +355 69 577 7199</p>
+        <p><a href="https://maps.app.goo.gl/3fvz9saYZgMWo4Xh9" target="_blank">Vendodhja | Location</a></p>
+        <a href="https://www.booking.com/hotel/al/apartment-tirane-tirane.en-gb.html?aid=8035640"
+        target="_blank" 
+        style="text-decoration: none; color: white; background-color: #541f1a; padding: 10px 20px; border-radius: 5px; font-weight: bold; display: inline-block;">
+         Rezervo tani në Booking.com | Book Now on Booking.com
+     </a>
+        <button onclick="goBack()">Kthehu Mbrapa | Go Back</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Property Showroom | Showroomi Juaj i Pronave</p>
+    </footer>
+
+    <script>
+        function changeImage(src, imageId) {
+            document.getElementById(imageId).src = src; // Change the main image to the clicked thumbnail
+        }
+
+        function goBack() {
+            window.history.back(); // Go back to the previous page
+        }
+    </script>
+</body>
+</html>
