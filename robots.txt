@@ -1,0 +1,17 @@
+
+# Allow all bots to crawl the site
+User-agent: *
+Disallow: /private/ # Block access to the private directory
+Disallow: /temp/    # Block access to the temp directory
+Disallow: /admin/   # Block access to the admin area
+Disallow: /search   # Block search result pages (if applicable)
+
+# Allow crawling of important resources
+Allow: /public/
+
+# Sitemap location
+Sitemap: https://example.com/sitemap.xml
+
+# Block specific bots (example: BadBot)
+User-agent: BadBot
+Disallow: /
